@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'VCR_OSD_MONO_';
-    src: url('/font/vcr_osd_mono/VCR_OSD_MONO_1.001.ttf') format('truetype');
+    src: url('font/vcr_osd_mono/VCR_OSD_MONO_1.001.ttf') format('truetype');
     font-style: normal;
 }
 
