@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand';
+    background-image: url(https://i.pinimg.com/736x/6f/8e/29/6f8e291a4924b2ccb4ce159675f81f01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrap {
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+
+.logo a {
+    font-size: 45px;
+    font-weight: 800;
+    float: left;
+    color: rgb(119, 161, 211);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu {
+    float: right;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 65px; /* bagian atas dan bawah agar rata */ 
+    position: fixed;
+    top: 0;
+    background-color:rgba(4, 6, 52, 0.181) ;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: rgb(17, 45, 78);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: hsla(208, 100%, 97%, 0.427);
+    border-radius: 6px;
+}
+
+
+.jumbotron {
+    background-image: url(https://i.pinimg.com/736x/04/57/8b/04578b1b8e829ad53f957ef0842fc4de.jpg);
+    border-image-repeat: none;
+    background-size: cover;
+    text-align: center;
+    padding: 300px;
+    border-style: hidden;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 30px 70px 70px;
+    line-height: 50px;
+    background-color: rgb(59, 55, 55);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.deskripsi {
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.262);
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: justify;
+    box-shadow: 0 0 20px rgba(188, 215, 215, 0.4);
+}
+
+.kontak h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.image {
+    display: block;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.323);
+}
+
+.audio {
+    border-radius: 50px;
+    box-shadow: 6px;
+    margin : 20px;
+    display: flex;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.medsos {
+    background-image: url('../anchor.png');
+}
+

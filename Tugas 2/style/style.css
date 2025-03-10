@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand';
+    background-image: url(https://img.freepik.com/free-photo/beautiful-shot-high-white-hilltops-mountains-covered-fog_181624-545.jpg?t=st=1740390594~exp=1740394194~hmac=e570306ebd7512dce64ff5283fdd7f8be6829757b78d9dfb4cc1fbefd889f572&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrap {
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 45px;
+    font-weight: 800;
+    float: left;
+    color: rgb(119, 161, 211);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu {
+    float: right;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 65px; /* bagian atas dan bawah agar rata */ 
+    position: fixed;
+    top: 0;
+    background-color:rgba(4, 6, 52, 0.181) ;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: rgb(17, 45, 78);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: hsla(208, 100%, 97%, 0.427);
+    border-radius: 6px;
+}
+
+.jumbotron {
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWJnbnQ5eW5mZ2F4M2J2emZmcXMxeTRtNTVmbDdjZ3cxOTkzNDdzcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k5GcybwY1yybmGwrFg/giphy.gif);
+    text-align: center;
+    padding: 375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.section1 {
+    display: flex;
+    margin-bottom: 50px;
+    background-color:rgb(219, 226, 239) ;
+    padding: 30px;
+    border-radius: 10cap;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.section2 {
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(219, 226, 239);
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.section3 {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 50px;
+    background-color: rgb(219, 226, 239);
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.section4 {     
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    margin-bottom: 50px;
+    background-color: rgb(219, 226, 239);
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(119, 161, 211);  
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding: 10px 0px 10px 10px;
+    color: rgb(119, 161, 211);  
+    width: 100%;
+    line-height: 50px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+
+p {
+    margin: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+.image {
+    border-radius: 50px;
+    box-shadow: 6px;
+    margin : 20px;
+    display: flex;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.post1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.post1 h2 {
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 10px;
+    color: rgb(119, 161, 211);  
+    line-height: 50px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+
+.post1 h3 {
+    padding: 10px 0px 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(119, 161, 211);
+}
+
+.post1 h4 {
+    padding: 10px 0px 10px 10px;
+    color: rgb(119, 161, 211);
+}
+
+.post1 p {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 10px 0px 10px 10px;
+    padding: 10px 10px 20px 20px;
+}
+
+.post2 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.post2 h2 {
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 10px;
+    color: rgb(119, 161, 211);  
+    line-height: 50px;
+    background-color: antiquewhite;
+    border-radius: 30;
+}
+
+.post2 h3 {
+    padding: 10px 0px 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(119, 161, 211);
+}
+
+.post2 h4 {
+    padding: 10px 0px 10px 10px;
+    color: rgb(119, 161, 211);
+}
+
+.post2 p {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 10px 0px 10px 10px;
+    padding: 10px 50px 20px 20px;
+    text-align: justify;
+
+}
+
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.table th {
+    background-color: rgba(0, 0, 0, 0.214);
+}
+
+.table tbody {
+    background-color: rgba(52, 84, 84, 0.46);
+}
+ 
+table {
+    border-collapse: collapse;
+    width: 60%;
+   
+}
+
+table, th, td {
+    border: 1px solid rgb(17, 45, 78);
+    color: rgb(249, 247, 247);
+}
+
+
+th, td {
+    padding: 10px 10px 10px 10px ;
+    text-align: left;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a.tombol {
+    display: inline-block;
+    background: rgb(17, 45, 78) ;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 15px 20px 15px 20px;
+    color: rgb(249, 247, 247); 
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+}
+
+a.tombol:hover {
+    background: rgb(63, 114, 175);
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.video {
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px 0px 10px 10px;
+    display: flex;
+}
+ 
